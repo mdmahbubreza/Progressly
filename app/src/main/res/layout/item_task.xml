@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Card xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:spacing="12dp">
+
+        <CheckBox
+            android:id="@+id/cb_task_done"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@null"
+            app:buttonTint="@color/primary" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_task_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task Title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/on_background" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_delete_task"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="X"
+            android:backgroundTint="@color/error"
+            android:textColor="@color/on_error" />
+
+    </LinearLayout>
+
+</Card>
