@@ -1,0 +1,2 @@
+This is a placeholder - in a real project, the gradle-wrapper.jar would be a binary JAR file.
+The gradlew script will download the actual JAR automatically.
