@@ -1,6 +1,24 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+generated_plugin_registrant.dart
+macos/Flutter/Flutter-Release.podspec
+macos/Flutter/GeneratedPluginRegistrant.swift
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+coverage/
+
 # Gradle files
 .gradle/
-build/
 *.apk
 *.ap_
 *.aar
@@ -12,8 +30,6 @@ local.properties
 .idea/
 *.iml
 *.iws
-*.iml
-*.iml
 .DS_Store
 
 # IntelliJ
@@ -53,3 +69,19 @@ release.properties
 .classpath
 .project
 .factorypath
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE specific
+.vscode/
+
+# OS files
+Thumbs.db
+desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db

@@ -1,0 +1,50 @@
+name: progressly
+description: "Offline-First Productivity & Wellness Tracker built with Flutter."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.5
+  provider: ^6.0.0
+
+  # Local Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.8.0
+
+  # Local Storage
+  shared_preferences: ^2.2.0
+
+  # Date & Time
+  intl: ^0.19.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Material Design 3
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add custom fonts
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
